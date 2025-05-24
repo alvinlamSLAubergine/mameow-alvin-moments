@@ -1,0 +1,6 @@
+export const IMG_SRC_1 =
+  "https://static.wixstatic.com/media/e6a130_f766aa774efd43b09247c4f129e0de63~mv2.jpg/v1/fill/w_237,h_310,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/90f54d93a36b4355fe01e7c0d675ee8d.jpg 1x, https://static.wixstatic.com/media/e6a130_f766aa774efd43b09247c4f129e0de63~mv2.jpg/v1/fill/w_474,h_620,al_c,q_80,enc_avif,quality_auto/90f54d93a36b4355fe01e7c0d675ee8d.jpg";
+export const IMG_SRC_2 =
+  "https://static.wixstatic.com/media/e6a130_0665bd96948041b7820ce5ea7995ef90~mv2.jpg/v1/fill/w_374,h_539,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/1d6f7b9580873201c3c6f5ed9f05bcc0.jpg 1x, https://static.wixstatic.com/media/e6a130_0665bd96948041b7820ce5ea7995ef90~mv2.jpg/v1/fill/w_720,h_1038,al_c,q_85,enc_avif,quality_auto/1d6f7b9580873201c3c6f5ed9f05bcc0.jpg";
+export const IMG_SRC_3 =
+  "https://static.wixstatic.com/media/e6a130_1d23de91caaf4a368cd8284890b8d665~mv2.jpg/v1/fill/w_237,h_310,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/8eb39d45a410d3934150dc380590a51f.jpg 1x, https://static.wixstatic.com/media/e6a130_1d23de91caaf4a368cd8284890b8d665~mv2.jpg/v1/fill/w_474,h_620,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/8eb39d45a410d3934150dc380590a51f.jpg";

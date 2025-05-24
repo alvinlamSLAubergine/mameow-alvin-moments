@@ -1,0 +1,27 @@
+.intro {
+  margin-bottom: 32px;
+}
+
+.intro__names {
+  font-family: Corinthia, serif;
+  font-size: 100px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.intro__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.intro__image-small {
+  height: 300px;
+}
+
+.intro__image-large {
+  height: 400px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
