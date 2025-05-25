@@ -6,6 +6,7 @@ type Props = {
 export const ScheduleItem = ({ timing, title }: Props) => {
   return (
     <div className="schedule__item">
+      <div className="schedule__item-icon" />
       <div className="schedule__item-timing">{timing}</div>
       <div className="schedule__item-title">{title}</div>
     </div>

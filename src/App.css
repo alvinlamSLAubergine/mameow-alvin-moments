@@ -2,9 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-self: center;
   justify-content: center;
-  width: 1000px;
+  width: 100vw;
   padding-top: 32px;
   padding-bottom: 128px;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+}
+
+.app__content {
+  width: 1000px;
 }

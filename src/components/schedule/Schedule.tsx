@@ -1,14 +1,12 @@
-import { IMG_SRC } from "./constants";
 import "./Schedule.css";
 import { ScheduleItem } from "./ScheduleItem";
 
 export const Schedule = () => {
   return (
     <div className="schedule">
-      <h1>OUR WEDDING SCHEDULE</h1>
+      <h1>WEDDING SCHEDULE</h1>
       <h2>SATURDAY, NOVEMBER 29, 2025</h2>
       <div className="schedule__group">
-        <img className="schedule__image" src={IMG_SRC} alt="schedule image" />
         <div className="schedule__details">
           <ScheduleItem timing="3:30 PM" title="MONK CEREMONY" />
           <ScheduleItem timing="4:09 PM" title="ENGAGEMENT AND TEA CEREMONY" />

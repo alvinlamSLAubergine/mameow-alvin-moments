@@ -11,7 +11,7 @@
   align-items: center;
   width: 100%;
   max-width: 1000px;
-  height: 400px;
+  height: 200px;
 }
 
 .schedule__image {
@@ -21,16 +21,33 @@
 
 .schedule__details {
   display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.schedule__item {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  width: 30%;
-  height: 100%;
+  justify-content: center;
+  width: 100%;
+  max-width: 200px;
 }
 
 .schedule__item-timing {
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.schedule__item-icon {
+  border: 1px solid #212529;
+  border-radius: 50%;
+  width: 16px;
+  background-color: #212529;
+  aspect-ratio: 1 / 1;
+  margin-bottom: 32px;
 }
 
 h1 {

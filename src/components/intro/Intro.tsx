@@ -4,7 +4,11 @@ import "./Intro.css";
 export const Intro = () => {
   return (
     <div className="intro">
-      <div className="intro__names">Mameow & Alvin</div>
+      {/* <div className="intro__names">Mameow & Alvin</div> */}
+      <div className="intro__names">
+        <div className="intro__names-mameow">MAMEOW</div>
+        <div className="intro__names-alvin">& ALVIN</div>
+      </div>
       <div className="intro__images">
         <img
           className="intro__image-small"
