@@ -1,30 +1,36 @@
-import { IMG_SRC_1, IMG_SRC_2, IMG_SRC_3 } from "./constants";
+import { IMG_SRC_4 } from "./constants";
 import "./Intro.css";
 
 export const Intro = () => {
   return (
     <div className="intro">
       {/* <div className="intro__names">Mameow & Alvin</div> */}
-      <div className="intro__names">
-        <div className="intro__names-mameow">MAMEOW</div>
-        <div className="intro__names-alvin">& ALVIN</div>
-      </div>
       <div className="intro__images">
         <img
-          className="intro__image-small"
-          src={IMG_SRC_1}
-          alt="intro image left"
-        />
-        <img
           className="intro__image-large"
-          src={IMG_SRC_2}
+          src={IMG_SRC_4}
           alt="intro image middle"
         />
-        <img
-          className="intro__image-small"
-          src={IMG_SRC_3}
-          alt="intro image right"
-        />
+      </div>
+      <div>
+        <div className="intro__text">
+          <p>
+            After all the laughter, adventures, and moments that have brought us
+            closer, we're ready to begin the next chapter of our lives together.
+          </p>
+          <p>
+            We're deeply grateful for the love and support that surrounds us.
+            Having you with us will make this day even more meaningful.
+          </p>
+          <p>
+            With all our hearts, we invite you to join us in celebrating our
+            wedding.
+          </p>
+          <p>
+            Let's gather in love, share stories, smiles, and memories that will
+            last a lifetime. Your presence would truly mean the world to us.
+          </p>
+        </div>
       </div>
     </div>
   );

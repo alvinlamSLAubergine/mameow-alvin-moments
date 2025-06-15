@@ -1,0 +1,16 @@
+.title__names {
+  font-family: "Lexend Deca", serif;
+  font-size: 65px;
+  font-weight: 350;
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 56px;
+}
+
+.title__names-mameow {
+  translate: -80px;
+}
+
+.title__names-alvin {
+  translate: 125px;
+}

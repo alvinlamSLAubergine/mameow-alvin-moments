@@ -2,24 +2,6 @@
   margin-bottom: 32px;
 }
 
-.intro__names {
-  font-family: "Lexend Deca", serif;
-  font-size: 65px;
-  font-weight: 350;
-  margin-top: 24px;
-  text-align: center;
-  line-height: 60px;
-  margin-bottom: 32px;
-}
-
-.intro__names-mameow {
-  translate: -80px;
-}
-
-.intro__names-alvin {
-  translate: 125px;
-}
-
 .intro__images {
   display: flex;
   justify-content: center;
@@ -32,7 +14,7 @@
 }
 
 .intro__image-large {
-  height: 350px;
+  width: 100%;
   margin-left: 24px;
   margin-right: 24px;
 }
