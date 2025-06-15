@@ -18,6 +18,9 @@ export const Header = () => {
       <div onClick={() => handleClick("gallery")} className="header__item">
         GALLERY
       </div>
+      <div onClick={() => handleClick("rsvp")} className="header__item">
+        RSVP
+      </div>
     </div>
   );
 };

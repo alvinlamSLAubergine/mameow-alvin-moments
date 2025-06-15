@@ -1,0 +1,58 @@
+.rsvp {
+  margin-bottom: 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rsvp__inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+.rsvp__group {
+  margin-top: 32px;
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  align-items: center;
+}
+
+.rsvp__image-container {
+  display: flex;
+  justify-content: right;
+}
+
+.rsvp__image {
+  height: 150px;
+}
+
+.rsvp__text {
+  width: 50%;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.rsvp__button {
+  font-size: large;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+}
+
+.rsvp__button:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.rsvp__button:active {
+  background-color: white;
+  color: black;
+}

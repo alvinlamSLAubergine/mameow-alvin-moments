@@ -5,6 +5,7 @@ import {
   Header,
   Intro,
   Location,
+  Rsvp,
   Schedule,
 } from "./components";
 import { Title } from "./components/title/Title";
@@ -22,6 +23,8 @@ const App = () => {
         <Location />
         <Divider />
         <Gallery />
+        <Divider />
+        <Rsvp />
       </div>
     </div>
   );
