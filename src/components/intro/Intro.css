@@ -18,3 +18,7 @@
   margin-left: 24px;
   margin-right: 24px;
 }
+
+.intro__text {
+  display: none;
+}

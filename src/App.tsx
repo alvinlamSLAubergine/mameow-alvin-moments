@@ -17,7 +17,6 @@ const App = () => {
         <Header />
         <Divider />
         <Intro />
-        <Divider />
         <Schedule />
         <Divider />
         <Location />
