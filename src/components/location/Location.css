@@ -28,3 +28,11 @@ h2, h4 {
 h4 {
   font-weight: 400;
 }
+
+@media  (max-width: 600px) {
+  .location__image-wrapper {
+    display: none;
+  }
+
+
+}

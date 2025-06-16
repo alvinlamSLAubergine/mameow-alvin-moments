@@ -1,3 +1,8 @@
+.title {
+  width: 100%;
+  overflow: hidden;
+}
+
 .title__names {
   font-family: "Lexend Deca", serif;
   font-size: 65px;
@@ -13,4 +18,36 @@
 
 .title__names-alvin {
   translate: 125px;
+}
+
+@media  (max-width: 600px) {
+  .title__names {
+    font-size: 50px;
+    line-height: 45px;
+    margin-bottom: 32px;
+  }
+
+  .title__names-mameow {
+    translate: -60px;
+  }
+
+  .title__names-alvin {
+    translate: 90px;
+  }
+}
+
+@media  (max-width: 400px) {
+  .title__names {
+    font-size: 40px;
+    line-height: 35px;
+    margin-bottom: 24px;
+  }
+
+  .title__names-mameow {
+    translate: -40px;
+  }
+
+  .title__names-alvin {
+    translate: 60px;
+  }
 }

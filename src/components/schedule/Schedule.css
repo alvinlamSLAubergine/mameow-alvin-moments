@@ -33,7 +33,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .schedule__item-timing {
@@ -56,4 +56,46 @@ h1 {
 
 h2 {
   margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .schedule__group {
+    height: 150px;
+  }
+
+  .schedule__item-icon {
+    width: 12px;
+    margin-bottom: 24px;
+  }
+
+  .schedule__item-timing {
+    font-size: 1.2rem;
+  }
+
+  .schedule__item-title {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .schedule__group {
+    height: 120px;
+  }
+
+  .schedule__item-icon {
+    width: 10px;
+    margin-bottom: 16px;
+  }
+
+  .schedule__item {
+    max-width: 100px;
+  }
+
+  .schedule__item-timing {
+    font-size: 1rem;
+  }
+
+  .schedule__item-title {
+    font-size: 0.6rem;
+  }
 }

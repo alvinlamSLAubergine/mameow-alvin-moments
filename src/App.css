@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: calc(100vw - 16px);
   padding-top: 32px;
   padding-bottom: 128px;
   -webkit-justify-content: center;
@@ -11,5 +11,18 @@
 }
 
 .app__content {
-  width: 1000px;
+  max-width: 1000px;
+  min-width: 320px;
+  width: 100%;
+}
+
+@media  (max-width: 1000px) {
+  .app {
+    padding-top: 16px;
+    padding-bottom: 64px;
+  }
+
+  .app__content {
+    width: calc(100% - 32px);
+  }
 }
